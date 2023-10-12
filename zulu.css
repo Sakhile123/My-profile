@@ -1,0 +1,46 @@
+*{
+    background-color: black;
+   color: white;
+}
+
+
+
+.logo{
+    display: block;
+    border-radius: 40%;
+    font-size: 25px;
+    font-weight: bold;
+    width: fit-content;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.nav {
+    margin: 16px;
+    width: auto; /* Adjust width as needed */
+
+}
+ .nav nav {
+    text-align: center;
+   
+ }
+
+ .nav nav a{
+    text-align: center;
+    text-decoration: none;
+    margin: 18px 13px 0;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .nav nav a:hover{
+    color: rgba(119, 115, 115, 0.829);
+ }
+ .nav nav a span:hover{
+    color: rgba(119, 115, 115, 0.829);
+ }
+
+
+ span{
+   color: green;
+ }
