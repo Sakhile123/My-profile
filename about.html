@@ -9,6 +9,38 @@
     .brief img{
         height: 300px;
     }
+      .about{
+        display: flex;
+        justify-flex: space-between ;
+      }
+      button{
+        text-align: center;
+        border-radius: 15px;
+        background-color: rgb(0, 110, 255);
+        color: white;
+        margin-left: 20rem;
+      }
+      input{
+        background-color: white;
+        color: black;
+        margin-left: 25rem;
+        width: 400px;
+        height: 15vh;
+        display: flex;
+        justify-content: space-between;
+      }
+    .comment{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        background-color: aliceblue;
+    }
+    .comment label{
+        text-align: center;
+        color: black;
+        background-color: white;
+        margin-left: 35rem;
+    }
     </style>
 </head>
 <body>
@@ -26,6 +58,7 @@
         </nav>
       </header>
       <Section id="about">
+        <div class="about">
         <div class="slideshow-container">
             <div class="mySlides fade">
                 <img src="b2823420-3ddf-4235-864c-f198038dbc5d.jpg" alt="Image 1">
@@ -37,9 +70,25 @@
                 <img src="IMG_20181018_124119.jpg" alt="Image 3">
             </div>
         </div>
+        <div class="p">
+            <p>
+                My name is Thandukulunga Zulu. I was born at KwaHlabisa a small place in KZN under the discrict of Umkhanyakude. i grew up in Orange farm and attendended my primary and secondary school there. My primary was Itumeleng Primary School and my Secondary school is Thetha Secondary school.
+                <br><br>
+                I matriculated In 2015. after my matric i went back to KZN. I stayed there for 3 years. 2018 i applied at Maharishi institute to study.
+            </p>
+        </div>
+    </div>
+    <div class="comment" onclick="">
+    <label>Comment</label><br>
+    <input type="text" placeholder="Message Me">
+    <br>
+    <input type="submit" style="width: 90px; height:fit-content;">
+    <input type="reset" style="width: 90px;height:fit-content;">
+</div>
+
       </Section>
  
     </main>
     <script src="script.js"></script>
 </body>
-</html>
+</html> 
